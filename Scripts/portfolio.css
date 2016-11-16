@@ -11,7 +11,7 @@ body {
 	background-color: #EEEEEE;
 }
 header {
-	background-color: #257cb5;
+	background-color: #333132;
 	color: #FFFFFF;
 	width: 100%;
 	height: 100px;
@@ -21,7 +21,7 @@ header {
 	position: fixed;
 	box-shadow: 0 2px 18px #000000;
 	-webkit-transition: all 0.2s ease-in-out;
-  	-moz-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
 }
 header.small {
 	height: 65px;
@@ -49,9 +49,6 @@ nav hr {
 nav p {
 	display: none;
 }
-.active {
-	border-bottom: 3px solid white;
-}
 #headingName {
 	float: left;
 	margin-left: 3%;
@@ -67,59 +64,17 @@ nav p {
 	font-weight: 300;
 }
 section {
-	background-color: initial;
-	margin: 150px 0 50px 15%;
-	padding: 0;
-	width: 42%;
-	float: left;
-	position: relative;
-	z-index: 2;
-	border-radius: 0;
+
 }
 section p {
-	margin: 10px 0 10px 0;
-	text-indent: 30px;
+
 }
 section img {
-	width: 100%
-	box-shadow: 0 2px 20px #A9A9A9;
+
 }
-.prev {
-	float: left;
-	background-color: #2C3E50;
-	border-radius: 2px;
-	box-shadow: 0 2px 20px #A9A9A9;
-	color: #FFF;
-	padding: 10px;
-}
-.next {
-	float: right;
-	background-color: #2C3E50;
-	border-radius: 2px;
-	box-shadow: 0 2px 20px #A9A9A9;
-	color: #FFF;
-	padding: 10px;
-}
-.next a, .prev a {
-	color: #FFF;
-}
-.prevArticle, .nextArticle {
-	width: 40%;
-}
-.activePage {
-	background-color: #2C3E50;
-	border-radius: 20px;
-}
-.prevArticle {
-	float: left;
-	text-align: left;
-}
-.nextArticle {
-	float: right;
-	text-align: right;
-}
-.prevArticle h3, .nextArticle h3 {
-	color: #2C3E50;
+.main {
+	width: 80%;
+	margin: 0 auto;
 }
 article {
 	background-color: #FFF;
@@ -137,111 +92,6 @@ article h3 {
 }
 article img {
 	width: 100%;
-}
-.readMore a {
-	color: #2C3E50;
-	text-decoration: underline;
-}
-.post h1 {
-	color: #000;
-	font-size: 22px;
-	font-weight: bold;
-}
-.post h2 {
-	color: #e13023;
-	font-size: 18px;
-	margin-top: 20px;
-}
-.post ol, #WCAGlist {
-	margin-left: 40px;
-}
-.post a {
-	text-decoration: underline;
-}
-.share ul {
-	list-style-type: none;
-	margin: 20px 0;
-}
-.share li {
-	display: inline-block;
-}
-.share li img {
-	height: 30px;
-	width: 30px;
-}
-aside {
-	background-color: #FFFFFF;
-	box-shadow: 0 2px 20px #A9A9A9;
-	margin-top: 150px;
-	width: 250px;
-	padding: 20px;
-	float: right;
-	position: relative;
-	z-index: 1;
-	margin-right: 15%;
-	border-radius: 1px;
-}
-aside ul {
-	margin: 5px 40px;
-}
-aside hr {
-	opacity: .6;
-	margin: 20px 0;
-}
-.social {
-	margin-left: 10px;
-}
-.social ul {
-	list-style-type: none
-}
-.social li {
-	display: inline-block;
-	margin: 0 10px;
-}
-.social li img {
-	height: 30px; 
-	width: 30px;
-}
-fieldset {
-	border: none;
-}
-legend {
-	display: none;
-}
-label, input {
-	display: block;
-}
-label {
-	font-size: 12px;
-	color: #767676;
-	margin-bottom: 5px;
-}
-input, textarea {
-	font-size: 18px;
-	border: none;
-	border-bottom: 1px solid #2C3E50;
-	margin-bottom: 20px;
-}
-textarea {
-	width: 80%;
-	overflow-y: scroll;
-}
-input[type=submit] {
-	border: none;
-	background-color: #2C3E50;
-	padding: 10px;
-	border-radius: 2px;
-	box-shadow: 0 2px 20px #A9A9A9;
-	color: #FFF;
-	font-size: 16px;
-}
-/* honeypot field */
-input[name=emailAddress] {
-	/*display: none;*/
-}
-input[type=text]:focus, input[type=email]:focus, textarea:focus {
-	outline: none;
-	border-bottom: 3px solid #2C3E50;
 }
 footer {
 	background-color: #257cb5;
@@ -270,136 +120,4 @@ footer a {
 h1, h2 {
 	font-size: 16px;
 	color: #e13023;
-}
-.hamburger {
-	display: none;
-}
-@media (min-width: 1300px) {
-	section {
-		width: 46%;
-	}
-}
-@media (max-width: 1099px) {
-	header {
-		text-align: center;
-		height: 130px;
-		padding-top: 15px;
-		position: fixed;
-		top: 0;
-		z-index: 2;
-	}
-	header ul {
-		float: none;
-		margin: 25px 0 0 0;
-	}
-	header li {
-		font-size: 20px;
-		margin: 0 40px
-	}
-	#headingName {
-		float: none;
-		margin: 0;
-		font-size: 40px;
-	}
-	#headingText {
-		float: none;
-		margin: 0;
-		font-size: 16px;
-	}
-	aside {
-		display: none;
-	}
-	section, .separateCards {
-		width: 80%;
-		margin: 175px auto 50px auto;
-		float: none;
-		position: relative;
-		z-index: 1;
-	}
-	.prev, .next {
-		margin-bottom: 50px;
-	}
-}
-@media (max-width: 599px) {
-	.hamburger {
-		display: block;
-		float: left;
-		cursor: pointer;
-		margin-left: 10px;
-	}
-	#headingName {
-		display: inline-block;
-		margin: -6px 0 0 20px;
-	}
-	#headingText {
-		display: none;
-	}
-	header {
-		text-align: left;
-		height: 50px;
-	}
-	header ul {
-		float: left;
-		margin: 20px 0 0 0;
-	}
-	header li {
-		margin: 25px 10px;
-		display: block;
-	}
-	header li a {
-		color: #000000;
-	}
-	header li:active {
-		color: #2C3E50;
-	}
-	#navHamburger {
-		float: right;
-		margin: 5px 5% 0 0;
-		color: #000000;
-	}
-	nav {
-		position: fixed;
-		width: 60%;
-		height: 100%;
-		background-color: #FFFFFF;
-		top: 0;
-		left: 0;
-		padding: 10px;
-		z-index: 5;
-		transform: translateX(-101%);
-		transition: transform 0.6 ease;
-	}
-	nav.open {
-		transform: translateX(0);
-	}
-	nav p {
-		display: block;
-		color: #000000;
-		margin: 8px 0 0 10px;
-		text-align: left;
-		font-size: 22px;
-		font-weight: 500;
-	}
-	nav p a {
-		color: #000;
-	}
-	nav hr {
-		display: block;
-		width: 100%;
-		margin-top: 20px;
-	}
-	section, .separateCards {
-		margin-top: 100px;
-		width: 100%;
-	}
-	textarea {
-		width: 100%;
-	}
-	footer {
-		padding-bottom: 20px;
-	}
-	footer ul {
-		display: none;
-	}
-
 }
