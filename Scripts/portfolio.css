@@ -72,6 +72,10 @@ section p {
 section img {
 
 }
+h1 {
+	font-size: 25px;
+	color: #cc0809;
+}
 .main {
 	top: 100px;
 	width: 80%;
@@ -89,12 +93,13 @@ article p {
 	text-indent: 0;
 	clear: none;
 }
-article h3 {
-	margin-top: 20px;
+article h2 {
+	font-size: 20px;
 }
 article img {
 	width: 40%;
 	float: left;
+	margin-left: 20px;
 }
 footer {
 	background-color: #257cb5;
@@ -119,8 +124,4 @@ footer li {
 footer a {
 	list-style-type: none;
 	color: #FFFFFF;
-}
-h1, h2 {
-	font-size: 16px;
-	color: #e13023;
 }
