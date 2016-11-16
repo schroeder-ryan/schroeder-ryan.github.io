@@ -45,7 +45,8 @@ header li a:hover {
 }
 header img {
 	float: left;
-	width: 30%;
+	width: 20%;
+	margin: 20px;
 }
 nav hr {
 	display: none;
@@ -107,16 +108,4 @@ footer {
 footer img {
 	width: 30%;
 	margin: 10px;
-}
-footer ul {
-	margin: 10px 0 0 0;
-}
-footer li {
-	display: inline-block;
-	font-size: 20px;
-	margin: 20px 20px;
-}
-footer a {
-	list-style-type: none;
-	color: #000000;
 }
