@@ -73,8 +73,9 @@ section img {
 
 }
 .main {
+	top: 100px;
 	width: 80%;
-	margin: 0 auto;
+	margin: 150px auto;
 }
 article {
 	background-color: #FFF;
@@ -86,12 +87,14 @@ article {
 }
 article p {
 	text-indent: 0;
+	clear: none;
 }
 article h3 {
 	margin-top: 20px;
 }
 article img {
-	width: 100%;
+	width: 40%;
+	float: left;
 }
 footer {
 	background-color: #257cb5;
