@@ -43,18 +43,15 @@ header a {
 header li a:hover {
 	border-bottom: 3px solid white;
 }
+header img {
+	float: left;
+	width: 30%;
+}
 nav hr {
 	display: none;
 }
 nav p {
 	display: none;
-}
-#headingName {
-	float: left;
-	margin-left: 3%;
-	font-weight: 800;
-	font-size: 36px;
-	display: inline-block;
 }
 #headingText {
 	float: left;
