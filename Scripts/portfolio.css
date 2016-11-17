@@ -45,7 +45,7 @@ header li a:hover {
 }
 header img {
 	float: left;
-	width: 20%;
+	width: 15%;
 	margin-left: 3%;
 }
 #headingText {
@@ -54,15 +54,6 @@ header img {
 	margin-top: 15px;
 	font-size: 14px;
 	font-weight: 300;
-}
-section {
-
-}
-section p {
-
-}
-section img {
-
 }
 h1 {
 	font-size: 25px;
@@ -90,6 +81,13 @@ article img {
 	width: 40%;
 	float: left;
 	margin-right: 20px;
+}
+article ul {
+	margin: 20px 50px;
+}
+.project img {
+	width: 100%;
+	margin: 20px 10px;
 }
 footer {
 	background-color: #ACACAC;
