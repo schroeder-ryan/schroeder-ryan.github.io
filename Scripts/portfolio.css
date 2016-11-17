@@ -103,3 +103,19 @@ footer img {
 	width: 30%;
 	margin: 10px;
 }
+@media (max-width: 1000px){
+	header {
+		text-align: center;
+	}
+	header img {
+		width: 50%;
+	}
+	header ul {
+		float: none;
+		margin: 0 auto;
+	}
+	#headingText {
+		display: none;
+	}
+
+}
