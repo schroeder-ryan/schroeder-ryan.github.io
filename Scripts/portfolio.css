@@ -89,6 +89,9 @@ article ul {
 	width: 100%;
 	margin: 20px 10px;
 }
+.project span {
+	margin-bottom: 20px;
+}
 footer {
 	background-color: #ACACAC;
 	width: 100%;
