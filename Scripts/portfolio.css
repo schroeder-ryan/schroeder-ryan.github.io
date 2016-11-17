@@ -61,6 +61,7 @@ h1 {
 }
 .main {
 	width: 60%;
+	max-width: 800px;
 	margin: 150px auto;
 }
 article {
