@@ -126,10 +126,20 @@ footer img {
 	article img {
 		width: 100%;
 		float: none;
-		margin: 20px;
+		margin: 0;
+	}
+	header img {
+		width: 220px;
+		height: auto;
+	}
+	header {
+		position: relative;
+	}
+	header li {
+		font-size: 22px;
 	}
 	.main {
 		width: 80%;
-		margin: 0 auto;
+		margin: 30px auto;
 	}
 }
