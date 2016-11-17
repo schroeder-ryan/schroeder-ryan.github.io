@@ -46,13 +46,7 @@ header li a:hover {
 header img {
 	float: left;
 	width: 20%;
-	margin: 20px;
-}
-nav hr {
-	display: none;
-}
-nav p {
-	display: none;
+	margin-left: 3%;
 }
 #headingText {
 	float: left;
